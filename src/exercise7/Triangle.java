@@ -21,8 +21,9 @@ public class Triangle {
     }
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);System.out.print("Enter n: ");
         int size = input.nextInt();
+        
 
         printTriangle(size);
     }
